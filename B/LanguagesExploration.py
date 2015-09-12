@@ -1,6 +1,7 @@
 class PublicClass:
-    privateInt=0
+    
     def __init__ (self):
+        self.privateInt=0
         self.publicString = "hello"
         self.staticInt = 0
         self.PI = 3.14
